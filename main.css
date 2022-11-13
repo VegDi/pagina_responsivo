@@ -205,7 +205,7 @@ footer {
 }
 @media screen and (max-width: 640px) {
     .container{
-        max-width: 100%;
+        width: 100%;
         display: block;
     }
     header .container {
@@ -278,5 +278,92 @@ footer {
         padding: 16px;
         font-size: 15px;
     }
+
+}
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    .container{ 
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    header .container {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 28px;
+        width: 100%;
+    }
+    .menu {
+        display: inline;
+    }
+    .loja{
+        width: 95%;
+        margin: 9px;
+    }
+    #sobreLoja {
+        align-items: center;
+        margin: 6px;
+        font-size: 25px;
+        margin-bottom: 16px;
+        
+    }
+    h2 {
+    margin: 16px;
+    }
+    #sobreLoja > h2 {
+        margin: 6px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    h3{
+        font-size: 25px;
+    }
+    .social-links img{
+        height: 40px;
+        margin: 2px;
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+    .social-links li {
+        display: inline;
+        margin-left: 40px;
+    }
+    .social-links li a {
+        text-decoration: none;
+    }
+    .social-links {
+        display: flex;
+    }
+    .lista-vinhos li {
+        list-style: none;
+        max-width: 50%;
+        margin: 85px;
+        font-size: 25px;
+        margin-bottom: 10px;
+        margin-top: 45px;
+    }
+    .lista-vinhos li h3{
+        margin: 1px;
+        font-size: 25px;
+    }
+    .item-central{
+        margin: 0 5%;
+    }
+    .price del{
+        color: rgba(80, 76, 76, 0.363);
+        font-size: 20px;
+    }
+    button{
+        padding: 15px 0;
+        font-size: 15px;
+    }
+    footer {
+        text-align: center;
+        padding: 16px;
+        font-size: 10px;
+    }
+
 
 }
